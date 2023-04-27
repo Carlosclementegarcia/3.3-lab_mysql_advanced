@@ -68,6 +68,11 @@ LIMIT 3;
 DROP TEMPORARY TABLE temporalm;
 
 challenge 3
+CREATE TABLE most_profiting_authors (
+    au_id varchar(11) PRIMARY KEY,
+    profits int);
+
+INSERT INTO most_profiting_authors (au_id, profits)
 
 SELECT 
     au_id,
